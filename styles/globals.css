@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Display";
+  src: url("/fonts/DMSerifDisplay-Regular.ttf");
+}
+
+@layer base {
+  body {
+    @apply font-poppins bg-orange-100/20;
+  }
+}
